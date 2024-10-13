@@ -16,13 +16,11 @@ public class typeCasting {
 		
 		
 		double score_a = 98.8;
-		int scoref= (int)score_a;
+		int score_i= (int)score_a;
 		/*반대로 double -> float -> long -> int 처럼 데이터의 손실이 발생하는 경우에는 
 		 * 명시적 형 변환이 필요하다.
 		 */
-		
-		System.out.println(score_d);
-		System.out.println(scoref);
+	
 	}
 
 }
